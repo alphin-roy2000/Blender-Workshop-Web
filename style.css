@@ -114,8 +114,8 @@ h2 {
 }
 .icon-box {
   position: relative;
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   margin: 0px;
   display: inline-box;
   border: rgba(204, 204, 204, 0.18) 1px solid;
@@ -123,7 +123,7 @@ h2 {
   padding: 0px !important;
 }
 .icon-box i {
-  line-height: 70px;
+  line-height: 40px;
   font-size: 25px;
   color: #ea7600;
 }
@@ -327,10 +327,12 @@ h2 {
   color: #242424;
   background-color: transparent;
   background-image: none;
-  border: none;
+  /* border: none; */
   border-radius: 0px;
   box-shadow: none;
   transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  border: 2px solid #236192;
+
   border-bottom: 2px solid #ea7600;
   resize: none;
   margin-top: 25px;
