@@ -65,7 +65,7 @@ h2 {
   font-size: 15px;
 }
 .banner-button {
-  border: rgba(204, 204, 204, 0.18) 1px solid;
+  border: #ea7600 1px solid;
   padding: 12px 35px;
   color: #ccc;
   text-decoration: none;
@@ -75,9 +75,9 @@ h2 {
   margin-top: 50px;
 }
 .banner-button:hover {
-  background-color: #ccc;
+  background-color: #236192;
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 .mynav {
   transition: all 0.8s ease-in;
@@ -123,7 +123,7 @@ h2 {
   padding: 0px !important;
 }
 .icon-box i {
-  line-height: 40px;
+  /* line-height: 40px; */
   font-size: 25px;
   color: #ea7600;
 }
@@ -458,5 +458,39 @@ ul.social-buttons li a:active {
   .contact,
   .testimonials {
     padding: 50px 0px;
+  }
+}
+
+.videoshow {
+  max-width: 600px;
+  height: 300px;
+  width: 100%;
+}
+@media (min-width: 0px) and (max-width: 500px) {
+  .videoshow {
+    max-width: 600px;
+    height: 200px;
+    width: 100%;
+  }
+}
+@media (min-width: 0px) and (max-width: 300px) {
+  .videoshow {
+    max-width: 600px;
+    height: 150px;
+    width: 100%;
+  }
+}
+.content.activestate {
+  animation: 1s move;
+}
+@keyframes move {
+  from {
+    opacity: 0.1;
+  }
+
+  to {
+    opacity: 1;
+
+    /* width: 100%; */
   }
 }
