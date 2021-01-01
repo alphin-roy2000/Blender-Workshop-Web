@@ -4,6 +4,7 @@
 * {
   padding: 0px;
   margin: 0px;
+  text-decoration: none;
 }
 body {
   font-family: "Work Sans", sans-serif;
@@ -315,7 +316,7 @@ h2 {
   line-height: 35px;
 }
 .contact-form {
-  margin-top: 45px;
+  /* margin-top: 45px; */
 }
 .form-control {
   display: block;
