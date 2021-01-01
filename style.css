@@ -286,6 +286,7 @@ h2 {
 .about-text p {
   font-size: 15px;
   font-weight: 300;
+  text-align: center;
 }
 .counter-item h5 {
   margin: 0px !important;
